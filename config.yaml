@@ -44,14 +44,14 @@ gaps:
   scale_with_dpi: true
 
   # Gap between adjacent windows.
-  inner_gap: '20px'
+  inner_gap: '5px' # 20
 
   # Gap between windows and the screen edge.
   outer_gap:
     top: '60px'
-    right: '20px'
-    bottom: '20px'
-    left: '20px'
+    right: '5px' # 20
+    bottom: '20px' # 20
+    left: '5px' # 20
 
 window_effects:
   # Visual effects to apply to the focused window.
@@ -135,6 +135,7 @@ workspaces:
   - name: '7'
   - name: '8'
   - name: '9'
+
 
 window_rules:
   - commands: ['ignore']
